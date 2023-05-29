@@ -1,0 +1,67 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+body{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color:rgb(13, 26, 62);
+}
+h1{
+  font-size: 50px;
+  margin-bottom: 40px;
+  color: white;
+  border-bottom: 1px solid white;
+  font-family: 'Poppins', sans-serif;
+}
+.watch{
+  border: 5px dashed darkorange;
+  max-width: 350px;
+  width: 90%;
+  height: 350px;
+  max-height: 100%;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  box-shadow: 14px 7px 25px rgba(0, 0, 0, 0.5);
+  font-size: 90px;
+  border-radius: 50%;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease-in-out;
+}
+.watch:hover{
+  transform: scale(0.95);
+}
+button{
+  border: none;
+  padding: 20px 30px;
+  margin-right: 15px;
+  font-size: 20px;
+  border-radius: 2px;
+  cursor: pointer; 
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  transition: 0.5s ease-in-out;
+  box-shadow: 0 10px 10px -8px rgb(0 0 0 / 78%);
+}
+button:hover{
+  filter: opacity(0.5);
+}
+.button button:nth-child(1){
+  background-color: darkorange;
+}
+.button button:nth-child(2){
+  background-color:crimson;
+}
+.button button:nth-child(3){
+  background-color:#007ced;
+}
